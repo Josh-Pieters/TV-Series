@@ -18,7 +18,7 @@ public class Series
             System.out.print("Enter the number of episodes: ");
             int seriesNumberOfEpisodes = Integer.parseInt(scanner.nextLine());
 
-            if (seriesAge >= 0 && seriesAge <= 18) {
+            if (seriesAge >= 2 && seriesAge <= 18) {
                 seriesList.add(new SeriesModel(seriesId, seriesName, seriesAge, seriesNumberOfEpisodes));
                 System.out.println("Series captured successfully!");
             }
